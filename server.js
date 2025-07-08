@@ -24,7 +24,7 @@ const app = express();
 //   };
   
   app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin"," https://todo-task-smart-frontend-gt7r.vercel.app");
+    res.header("Access-Control-Allow-Origin"," https://todo-task-smart-frontend-gt7r.vercel.app/login");
     res.header("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, DELETE, OPTIONS");
     res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
     res.header("Access-Control-Allow-Credentials", "true");
